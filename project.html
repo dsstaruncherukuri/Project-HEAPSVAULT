@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HEAPSVAULT</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+<link href="password-strength.css" rel="stylesheet">
+<link href="password-strength2.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://www.solodev.com/assets/password/strength.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function($) {
+  $('#myPassword').strength({
+              strengthClass: 'strength',
+              strengthMeterClass: 'strength_meter',
+              strengthButtonClass: 'button_strength',
+              strengthButtonText: 'Show Password',
+              strengthButtonTextToggle: 'Hide Password'
+          });
+  });
+  </script>
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button5 {
+  background-color: white;
+  color: black;
+  border: 3px solid black;
+}
+</style>
+</head>
+<body>
+
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="project.html" class="w3-bar-item w3-button w3-padding-large w3-black">Home</a>
+    <a href="login.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Login</a>
+    <a href="agreement.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Register</a>
+    <a href="contactus.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Contact Us</a>
+  </div>
+
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="project.html" class="w3-bar-item w3-button w3-padding-large">Start</a>
+    <a href="login.php" class="w3-bar-item w3-button w3-padding-large">Login</a>
+    <a href="agreement.html" class="w3-bar-item w3-button w3-padding-large">Register</a>
+    <a href="contactus.html" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
+  </div>
+</div>
+
+<header class="w3-container w3-black w3-center" style="padding:128px 16px">
+  <h1 style="font-size:200 px;">Highly Encrypted Arbitrary Password Setup VAULT</h1>
+  <br>
+  <button class="w3-button w3-white w3-padding-large w3-large w3-margin-top" onClick="registeragree();">Get Started</button>
+</header>
+
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>About Us</h1>
+      <h5 class="w3-padding-32">HEAPSVAULT - Highly Encrypted Arbitrary Password Setup VAULT. This is a Security Web-Application that helps users in Generating, Retrieving Arbitrary (Random) Passwords. This also helps the user in determining whether their passwords are Easy or Hard to crack by determing the degree of strength of the password. This also ensures that the passwords used by the user are encrypted using the best encryption method there is.</h5>
+
+      <p class="w3-text-grey">Do you want to know how we do this? Click on the Get Started above to continue.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <img src="pass.png" width="500px" height="350px" style="padding-right: 30px;">
+    </div>
+  </div>
+</div>
+
+<div>
+  
+<centre>
+ <h1 style="padding-left:  5.5cm; "><b>Check your Password Strength</b></h1> 
+</centre>
+</div>
+
+<form style="padding-left: 5.5cm;" id="myform" action="" method="get" accept-charset="utf-8">
+   <input style="border-radius: 5px; width: 15cm; height: 1.2cm;" id="myPassword" type="password" name="" value="">
+</form>
+<p id="teller1"></p>
+<p id="teller2"></p>
+<p id="teller3"></p>
+<p id="teller4"></p>
+<p id="teller5"></p>
+<br>
+<br>
+<div class="w3-container w3-black w3-center">
+    <h1 class="w3-margin w3-xlarge">Security is not an Option, it is a Right.</h1>
+</div>
+
+<footer class="w3-container w3-center">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+</footer>
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function registeragree(){
+  window.location.href=("agreement.html");
+}
+
+</script>
+
+</body>
+</html>

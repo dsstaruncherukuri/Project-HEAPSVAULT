@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>Agreement Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<script> function myFunction() {
+    var checkBox = document.getElementById("myCheck");
+    if (checkBox.checked == true){
+      window.location.href="register.php";
+    } else {
+      alert("Please check the checkbox in order to continue.")
+    }
+  }
+</script>
+<style>
+  #my{
+zoom: 85%;
+}
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('https://cdn.wallpapersafari.com/32/92/7ELV1d.jpg');
+  min-height: 110%;
+  background-position: center;
+  background-size: cover;
+  max-width:100%;
+}
+</style>
+</head>
+<body id="my">
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    HEAPSVault<pre>
+                     This is simple agreement which is drafted by the makers of the Web-Application :
+                     HEAPSVAULT.
+                                                 USER AGREEMENT
+                        PARTIES
+                        - This Simple Website Design Agreement (hereinafter referred to as the “Agreement”) is
+                        entered into on HEAPSVAULT, by “Client” and "Designer" collectively referred to as 
+                        "Parties"
+                        DESCRIPTION OF THE PROJECT
+                        - The Designer agrees to perform the following services for the Client: 
+                                    1) Provide Strength Tester
+                                    2) Provide a Random Password Generator
+                                    3) Provide a vault to store these passwords
+                                    4) Encrypt these passwords safely
+                                    5) Not disclosing these passwords to outside parties            
+                        The services mentioned above will be strictely adhered to and be followed at any cost
+                        in all the cases.
+                        If you wish to continue, please check the box given below and click on 
+                        "Register an account".        
+                        If you have read the above instrucions and wish to continue, scroll down, select
+                        the checkbox and click on Submit.
+                                                </pre>
+    <center><input type="checkbox" id="myCheck"></center><br>
+    <center><input type="submit" onclick="myFunction()"> </center>         
+  </div>
+  
+</div>
+
+</body>
+</html>

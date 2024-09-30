@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+::placeholder {
+    color: white;
+    opacity: 3;
+  }
+  
+  :-ms-input-placeholder {
+    color: white;
+  }
+  
+  ::-ms-input-placeholder {
+    color: white;
+  }
+
+.background{
+    background: url(gateway.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+
+.text, .box{
+    margin-top: 15vh;
+    flex: 1;
+}
+
+.text{
+    margin-left: 10%;
+    font-weight: 300px;
+}
+
+.box{
+    margin-left: 25%;
+}
+
+.text h1{
+    font-size: 70px;
+    color: #fff;
+}
+
+.text p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.text p a{
+    color: #fff;
+    font-weight: 700;
+}
+
+.form{
+    background: transparent;
+    color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+input{
+    margin: 20px 0;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.pin{
+    border-bottom: 1px solid #fff;
+}
+
+.button{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+}
+
+.button:hover{
+    background: #1969ba;
+}
+
+h1{
+    font-size: 100px;
+}

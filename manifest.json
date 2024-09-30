@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "HEAPSVault",
+    "description": "Highly Encrypted Password Setup Vault",
+    "version": "1.0",
+    "browser_action": {
+        "default_icon": "Heapsvaultpic.png",
+        "default_popup": "extension.html",
+        "default_title": "HEAPSVault"
+    }
+}

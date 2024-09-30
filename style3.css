@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #000;
+}
+
+::placeholder { 
+    color: white;
+    opacity: 3; 
+  }
+  
+  :-ms-input-placeholder {
+    color: white;
+  }
+  
+  ::-ms-input-placeholder {
+    color: white;
+  }
+
+.background{
+    background: url(https://images.hdqwalls.com/wallpapers/firewatch-dark-minimal-5k-58.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+
+.text{
+    margin-top: 40vh;
+    flex: 1;
+}
+
+.box{
+    margin-top: 21vh;
+    flex: 1;
+}
+
+.text{
+    margin-left: 10%;
+    font-weight: 300px;
+}
+
+.box{
+    margin-left: 25%;
+}
+
+.text h1{
+    font-size: 70px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.text p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.text p a{
+    color: #fff;
+    font-weight: 700;
+}
+
+.form{
+    background: transparent;
+    color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+input{
+    margin: 20px 0;
+    padding: 15px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.sq1, .sq2, .pass{
+    border-bottom: 1px solid grey;
+}
+
+.button{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+}
+
+.button:hover{
+    background: #fff;
+}

@@ -1,0 +1,3 @@
+![asdgfsdf](https://github.com/cherukuridsstarun/miniprojectsource/assets/118830305/e27d1ac6-4533-4a24-a167-ac6a559778f0)
+
+HEAPSVault - Highly Encrypted Arbitrary Password Setup Vault. This is a Security Web-Application that helps users in Generating, Storing & Retrieving Arbitrary (Random) Passwords. This also helps the user in determining whether their passwords are Easy or Hard to crack by determining the degree of strength of the password and also lets the user strengthen their passwords if they are weak. This also ensures that the passwords used by the user are encrypted using the best encryption method there is and also uses hashing techniques to prevent leakage of data. This is Project HEAPSVault.
